@@ -1,0 +1,84 @@
+{
+    "type": "bubble",
+    "hero": {
+        "type": "image",
+        "url": "https://i.postimg.cc/mDFm6Rws/IMG-0730.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+            "type": "uri",
+            "uri": "http://linecorp.com/"
+        },
+        "position": "relative"
+    },
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "Eric Chien",
+                "weight": "bold",
+                "size": "xl",
+                "contents": []
+            },
+            {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Hi! I'm Eric. Click the buttons below to know more about me!",
+                        "position": "relative",
+                        "wrap": true
+                    }
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+            {
+                "type": "button",
+                "style": "link",
+                "height": "sm",
+                "action": {
+                    "type": "uri",
+                    "label": "Education and Work Experience",
+                    "uri": "https://linecorp.com"
+                }
+            },
+            {
+                "type": "button",
+                "style": "link",
+                "height": "sm",
+                "action": {
+                    "type": "uri",
+                    "label": "Skill Sets",
+                    "uri": "https://linecorp.com"
+                }
+            },
+            {
+                "type": "button",
+                "action": {
+                    "type": "uri",
+                    "label": "Extra Curriculum Experience",
+                    "uri": "http://linecorp.com/"
+                }
+            },
+            {
+                "type": "button",
+                "action": {
+                    "type": "uri",
+                    "label": "Personal Portfolio",
+                    "uri": "http://linecorp.com/"
+                }
+            }
+        ],
+        "flex": 0
+    }
+}
