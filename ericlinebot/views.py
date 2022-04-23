@@ -55,8 +55,6 @@ def callback(request):
                         event.reply_token,
                         TextSendMessage(text=random.choice(responses))
                     )
-                time.sleep(2)
-                line_bot_api.push_message('U2d4cd006f276c9f77ff776ab9ac36677', FlexSendMessage('profile',starting_card))
         return HttpResponse()
     else:
         return HttpResponseBadRequest()
