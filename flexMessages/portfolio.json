@@ -1,0 +1,319 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "size": "full",
+                "aspectRatio": "20:13",
+                "aspectMode": "cover",
+                "url": "https://i.postimg.cc/cHkL4gd1/2022-04-20-2-19-56.png"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "spacing": "sm",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Pchom銷售數據分析",
+                        "wrap": true,
+                        "weight": "bold",
+                        "size": "xl"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "baseline",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "wrap": true,
+                                "weight": "regular",
+                                "size": "md",
+                                "flex": 0,
+                                "text": "對Pchome之銷售數據進行資料探勘。透過EDA、RFM Model及協同過濾，為企業找出潛在消費族群及回購週期，制定解決方案，將透過數據得到有價值之洞察並化為決策。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "footer": {
+                "type": "box",
+                "layout": "vertical",
+                "spacing": "sm",
+                "contents": [
+                    {
+                        "type": "button",
+                        "style": "primary",
+                        "action": {
+                            "type": "uri",
+                            "label": "View",
+                            "uri": "https://www.canva.com/design/DAEvmKhj-IM/vo5Nz7pghaxkXrQB3KSsNQ/view?utm_content=DAEvmKhj-IM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "size": "full",
+                "aspectRatio": "20:13",
+                "aspectMode": "cover",
+                "url": "https://i.postimg.cc/L6LgvDHz/2022-04-20-2-45-46.png"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "spacing": "sm",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Start-Up Speed Up",
+                        "wrap": true,
+                        "weight": "bold",
+                        "size": "xl"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "baseline",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "wrap": true,
+                                "weight": "regular",
+                                "size": "md",
+                                "flex": 0,
+                                "text": "新創媒合平台，幫助有創業理想或對創業有興趣的人能快速組織團隊或加入適合自己的團隊。主要開發框架使用React作為前端，Firebase作為後端。"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "text": "github",
+                        "action": {
+                            "type": "uri",
+                            "label": "github",
+                            "uri": "https://github.com/jessica30229/SUSU"
+                        },
+                        "decoration": "underline",
+                        "color": "#4361ee"
+                    }
+                ]
+            },
+            "footer": {
+                "type": "box",
+                "layout": "vertical",
+                "spacing": "sm",
+                "contents": [
+                    {
+                        "type": "button",
+                        "style": "primary",
+                        "action": {
+                            "type": "uri",
+                            "label": "View",
+                            "uri": "https://susu-8bbc1.web.app/"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "size": "full",
+                "aspectRatio": "20:13",
+                "aspectMode": "cover",
+                "url": "https://i.postimg.cc/Y012NX10/maxim-hopman-fi-XLQXAh-Cfk-unsplash.jpg"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "spacing": "sm",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Backtest Web App",
+                        "wrap": true,
+                        "weight": "bold",
+                        "size": "xl"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "baseline",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "wrap": true,
+                                "weight": "regular",
+                                "size": "md",
+                                "flex": 0,
+                                "text": "將交易策略用程式語言實現，並以歷史資料進行回測，使用Streamlit將結果視覺化。"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "text": "github",
+                        "action": {
+                            "type": "uri",
+                            "label": "github",
+                            "uri": "https://github.com/ShaoXiangChien/Backtest-App"
+                        },
+                        "decoration": "underline",
+                        "color": "#4361ee"
+                    }
+                ]
+            },
+            "footer": {
+                "type": "box",
+                "layout": "vertical",
+                "spacing": "sm",
+                "contents": [
+                    {
+                        "type": "button",
+                        "style": "primary",
+                        "action": {
+                            "type": "uri",
+                            "label": "View",
+                            "uri": "https://share.streamlit.io/shaoxiangchien/backtest-app/main/Backtest.py"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "size": "full",
+                "aspectRatio": "20:13",
+                "aspectMode": "cover",
+                "url": "https://i.postimg.cc/Jz77J5t7/freestocks-11-Sg-H7-U6-Tm-I-unsplash.jpg"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "spacing": "sm",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Netflix原創影劇大眾評論整合平台",
+                        "wrap": true,
+                        "weight": "bold",
+                        "size": "xl"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "baseline",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "wrap": true,
+                                "weight": "regular",
+                                "size": "md",
+                                "flex": 0,
+                                "text": "利用爬蟲技術搜集各大影評網站之評分及社群討論，並訓練深度學習模型對留言進行情緒分析，將上述資訊以及相關統計結果利用strealit框架連結firebase製作網頁進行呈現。"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "text": "github",
+                        "action": {
+                            "type": "uri",
+                            "label": "github",
+                            "uri": "https://github.com/ShaoXiangChien/Noppo"
+                        },
+                        "decoration": "underline",
+                        "color": "#4361ee"
+                    }
+                ]
+            },
+            "footer": {
+                "type": "box",
+                "layout": "vertical",
+                "spacing": "sm",
+                "contents": [
+                    {
+                        "type": "button",
+                        "style": "primary",
+                        "action": {
+                            "type": "uri",
+                            "label": "View",
+                            "uri": "https://share.streamlit.io/shaoxiangchien/noppo/main/netflix_comment.py"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "size": "full",
+                "aspectRatio": "20:13",
+                "aspectMode": "cover",
+                "url": "https://i.postimg.cc/QdMsVNnH/kenny-eliason-Svh-XD3k-PSTY-unsplash.jpg"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "spacing": "sm",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Auto Product Classifier",
+                        "wrap": true,
+                        "weight": "bold",
+                        "size": "xl"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "baseline",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "wrap": true,
+                                "weight": "regular",
+                                "size": "md",
+                                "flex": 0,
+                                "text": "A CNN model that classifies products into categories by names"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "text": "github",
+                        "action": {
+                            "type": "uri",
+                            "label": "github",
+                            "uri": "https://github.com/ShaoXiangChien/product-classifier.git"
+                        },
+                        "decoration": "underline",
+                        "color": "#4361ee"
+                    }
+                ]
+            },
+            "footer": {
+                "type": "box",
+                "layout": "vertical",
+                "spacing": "sm",
+                "contents": [
+                    {
+                        "type": "button",
+                        "style": "primary",
+                        "action": {
+                            "type": "uri",
+                            "label": "View",
+                            "uri": "https://scalloped-emoji-765.notion.site/Auto-Product-Classifier-3589be92435c4a4b92558e2ecfd1575a"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

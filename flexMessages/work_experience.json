@@ -1,0 +1,163 @@
+{
+    "type": "bubble",
+    "size": "mega",
+    "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "Work Experience",
+                "size": "xxl",
+                "margin": "none",
+                "color": "#FFFFFF",
+                "align": "center",
+                "position": "relative",
+                "decoration": "none",
+                "style": "normal",
+                "weight": "bold",
+                "wrap": true
+            }
+        ],
+        "paddingAll": "20px",
+        "backgroundColor": "#0367D3",
+        "spacing": "md",
+        "height": "70px",
+        "paddingTop": "22px"
+    },
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                            {
+                                "type": "filler"
+                            },
+                            {
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [],
+                                "cornerRadius": "30px",
+                                "height": "12px",
+                                "width": "12px",
+                                "borderColor": "#6486E3",
+                                "borderWidth": "2px"
+                            },
+                            {
+                                "type": "filler"
+                            }
+                        ],
+                        "flex": 0
+                    },
+                    {
+                        "type": "text",
+                        "text": "Frontend Developer @ SUSU",
+                        "gravity": "center",
+                        "flex": 4,
+                        "size": "sm",
+                        "align": "start"
+                    }
+                ],
+                "spacing": "lg",
+                "cornerRadius": "30px",
+                "margin": "xl"
+            },
+            {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "box",
+                        "layout": "baseline",
+                        "contents": [
+                            {
+                                "type": "filler"
+                            }
+                        ],
+                        "flex": 0,
+                        "margin": "xxl",
+                        "spacing": "none"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                            {
+                                "type": "box",
+                                "layout": "horizontal",
+                                "contents": [
+                                    {
+                                        "type": "filler"
+                                    },
+                                    {
+                                        "type": "box",
+                                        "layout": "vertical",
+                                        "contents": [],
+                                        "width": "2px",
+                                        "backgroundColor": "#B7B7B7"
+                                    },
+                                    {
+                                        "type": "filler"
+                                    }
+                                ],
+                                "flex": 1
+                            }
+                        ],
+                        "width": "12px"
+                    },
+                    {
+                        "type": "filler"
+                    }
+                ],
+                "spacing": "lg",
+                "height": "64px",
+                "offsetTop": "md"
+            },
+            {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                            {
+                                "type": "filler"
+                            },
+                            {
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [],
+                                "cornerRadius": "30px",
+                                "height": "12px",
+                                "width": "12px",
+                                "borderColor": "#6486E3",
+                                "borderWidth": "2px"
+                            },
+                            {
+                                "type": "filler"
+                            }
+                        ],
+                        "flex": 0
+                    },
+                    {
+                        "type": "text",
+                        "text": "Academy Leader @ DSPMT Camp",
+                        "align": "start",
+                        "size": "sm"
+                    }
+                ],
+                "spacing": "lg",
+                "cornerRadius": "30px",
+                "margin": "xl"
+            }
+        ]
+    }
+}

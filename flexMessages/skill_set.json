@@ -1,0 +1,124 @@
+{
+    "type": "bubble",
+    "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "Skill Set",
+                "size": "3xl",
+                "weight": "bold",
+                "align": "center",
+                "color": "#FFFFFF"
+            }
+        ],
+        "backgroundColor": "#0081a7"
+    },
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Web Development",
+                        "size": "lg",
+                        "weight": "bold"
+                    },
+                    {
+                        "type": "separator",
+                        "color": "#4a4e69",
+                        "margin": "sm"
+                    },
+                    {
+                        "type": "text",
+                        "margin": "md",
+                        "text": "✔  HTML, CSS, RWD"
+                    },
+                    {
+                        "type": "text",
+                        "margin": "md",
+                        "text": "✔  Javascript (ES6), React.js"
+                    },
+                    {
+                        "type": "text",
+                        "margin": "md",
+                        "text": "✔  Hooks, MUI"
+                    }
+                ],
+                "margin": "none"
+            },
+            {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Data Science",
+                        "size": "lg",
+                        "weight": "bold"
+                    },
+                    {
+                        "type": "separator",
+                        "color": "#4a4e69",
+                        "margin": "sm"
+                    },
+                    {
+                        "type": "text",
+                        "margin": "md",
+                        "text": "✔  Python, SQL"
+                    },
+                    {
+                        "type": "text",
+                        "margin": "md",
+                        "text": "✔  Pandas, Numpy, Seaborn"
+                    },
+                    {
+                        "type": "text",
+                        "margin": "md",
+                        "text": "✔  Tensorflow (Keras), Scikit-Learn"
+                    }
+                ],
+                "offsetTop": "none"
+            },
+            {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Related Skills",
+                        "size": "lg",
+                        "weight": "bold"
+                    },
+                    {
+                        "type": "separator",
+                        "color": "#4a4e69",
+                        "margin": "sm"
+                    },
+                    {
+                        "type": "text",
+                        "margin": "md",
+                        "text": "✔  Git Version Control"
+                    },
+                    {
+                        "type": "text",
+                        "margin": "md",
+                        "text": "✔  Chrome Dev Tool"
+                    },
+                    {
+                        "type": "text",
+                        "margin": "md",
+                        "text": "✔  Linux"
+                    }
+                ],
+                "offsetTop": "none"
+            }
+        ],
+        "spacing": "lg"
+    }
+}

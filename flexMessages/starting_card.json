@@ -1,0 +1,101 @@
+{
+    "type": "bubble",
+    "hero": {
+        "type": "image",
+        "url": "https://i.postimg.cc/mDFm6Rws/IMG-0730.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+            "type": "uri",
+            "uri": "http://linecorp.com/"
+        },
+        "position": "relative"
+    },
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "Hi! I'm Eric. \nYou can ask me any yes-or-no questions.\nOr click the buttons below to know more about me!",
+                "weight": "bold",
+                "size": "xl",
+                "contents": [],
+                "wrap": true
+            },
+            {
+                "type": "box",
+                "layout": "vertical",
+                "spacing": "none",
+                "contents": [
+                    {
+                        "type": "button",
+                        "style": "primary",
+                        "height": "sm",
+                        "action": {
+                            "type": "message",
+                            "label": "Education",
+                            "text": "Education"
+                        },
+                        "margin": "none",
+                        "offsetBottom": "none"
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "Work Experience",
+                            "text": "Work Experience"
+                        },
+                        "style": "primary",
+                        "height": "sm",
+                        "offsetBottom": "none",
+                        "margin": "md"
+                    },
+                    {
+                        "type": "button",
+                        "style": "primary",
+                        "height": "sm",
+                        "action": {
+                            "type": "message",
+                            "label": "Skill Set",
+                            "text": "Skill Set"
+                        },
+                        "margin": "md"
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "Extra Curriculum Experience",
+                            "text": "Extra Curriculum Experience"
+                        },
+                        "style": "primary",
+                        "height": "sm",
+                        "margin": "md"
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "Personal Portfolio",
+                            "text": "Personal Portfolio"
+                        },
+                        "style": "primary",
+                        "height": "sm",
+                        "margin": "md"
+                    }
+                ],
+                "flex": 0,
+                "margin": "none",
+                "paddingAll": "xxl"
+            }
+        ]
+    },
+    "styles": {
+        "header": {
+            "separator": false
+        }
+    }
+}
