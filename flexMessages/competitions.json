@@ -1,0 +1,156 @@
+{
+    "type": "bubble",
+    "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "Competitions",
+                "size": "3xl",
+                "weight": "bold",
+                "align": "center",
+                "color": "#FFFFFF"
+            }
+        ],
+        "backgroundColor": "#4ea8de"
+    },
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "size": "lg",
+                        "weight": "bold",
+                        "text": "- 全國教育部人文數據競賽",
+                        "wrap": true
+                    },
+                    {
+                        "type": "separator",
+                        "color": "#FFFFFf",
+                        "margin": "sm"
+                    },
+                    {
+                        "type": "text",
+                        "text": "第三名",
+                        "color": "#2f3e46",
+                        "weight": "bold",
+                        "offsetStart": "md"
+                    },
+                    {
+                        "type": "separator",
+                        "color": "#FFFFFf",
+                        "margin": "sm"
+                    },
+                    {
+                        "type": "text",
+                        "text": "利用爬蟲技術搜集各大影評網站之評分及社群討論，並訓練深度學習模型對留言進行情緒分析，將上述資訊以及相關統計結果利用strealit框架連結firebase製作網頁進行呈現。",
+                        "wrap": true,
+                        "offsetStart": "md"
+                    }
+                ],
+                "margin": "none"
+            },
+            {
+                "type": "separator",
+                "color": "#FFFFFf",
+                "margin": "sm"
+            },
+            {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "size": "lg",
+                        "weight": "bold",
+                        "text": "- 資策會企業數據競賽",
+                        "wrap": true
+                    },
+                    {
+                        "type": "separator",
+                        "color": "#FFFFFf",
+                        "margin": "sm"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Pchome組 前五",
+                        "color": "#2f3e46",
+                        "weight": "bold",
+                        "offsetStart": "md"
+                    },
+                    {
+                        "type": "separator",
+                        "color": "#FFFFFf",
+                        "margin": "sm"
+                    },
+                    {
+                        "type": "text",
+                        "text": "對Pchome銷售數據進行資料探勘來解決企業痛點，找出潛在的消費族群及回購週期",
+                        "wrap": true,
+                        "offsetBottom": "none",
+                        "margin": "none",
+                        "offsetStart": "md"
+                    }
+                ],
+                "margin": "none"
+            },
+            {
+                "type": "separator",
+                "color": "#FFFFFf",
+                "margin": "sm"
+            },
+            {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "size": "lg",
+                        "weight": "bold",
+                        "wrap": true,
+                        "text": "- 清大科管盃商業競賽"
+                    },
+                    {
+                        "type": "separator",
+                        "color": "#FFFFFf",
+                        "margin": "sm"
+                    },
+                    {
+                        "type": "text",
+                        "text": "社會企業組 第二名",
+                        "color": "#2f3e46",
+                        "weight": "bold",
+                        "offsetStart": "md"
+                    },
+                    {
+                        "type": "separator",
+                        "color": "#FFFFFf",
+                        "margin": "sm"
+                    },
+                    {
+                        "type": "text",
+                        "text": "針對DiD HK進行商業分析，並針對知名度與社會影響力不足之問題提出策略",
+                        "wrap": true,
+                        "offsetStart": "md"
+                    }
+                ],
+                "margin": "none"
+            }
+        ],
+        "spacing": "lg",
+        "margin": "none",
+        "paddingBottom": "none",
+        "offsetBottom": "none"
+    },
+    "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": []
+    }
+}

@@ -68,8 +68,8 @@
                         "type": "button",
                         "action": {
                             "type": "message",
-                            "label": "Extra Curriculum Experience",
-                            "text": "Extra Curriculum Experience"
+                            "label": "Competitions",
+                            "text": "Competitions"
                         },
                         "style": "primary",
                         "height": "sm",

@@ -19,6 +19,7 @@ work_experience = json.load(open('./flexMessages/work_experience.json', 'r', enc
 education = json.load(open('./flexMessages/education.json', 'r', encoding='utf-8'))
 skill_set = json.load(open('./flexMessages/skill_set.json', 'r', encoding='utf-8'))
 portfolio = json.load(open('./flexMessages/portfolio.json', 'r', encoding='utf-8'))
+competitions = json.load(open('./flexMessages/competitions.json', 'r', encoding='utf-8'))
 responses = ["Don't count on it", "My reply is no", "My sources say no", "Very doubtful", "As I see it, yes", "Most likely", "Signs point to yes", "Outlook good", "It is certain", "It is decidedly so", "Without a doubt", "Better not tell you now", "Concentrate and ask again"]
 
 line_bot_api.push_message('U2d4cd006f276c9f77ff776ab9ac36677', FlexSendMessage('profile',starting_card))
@@ -47,6 +48,8 @@ def callback(request):
                     line_bot_api.reply_message(event.reply_token, FlexSendMessage('skill set', skill_set))
                 elif event.message.text == "Personal Portfolio":
                     line_bot_api.reply_message(event.reply_token, FlexSendMessage('personal portfolio', portfolio))
+                elif event.message.text == "Competitions":
+                    line_bot_api.reply_message(event.reply_token, FlexSendMessage('competitions', competitions))
                 else:
                     line_bot_api.reply_message(  # 回復傳入的訊息文字
                         event.reply_token,
